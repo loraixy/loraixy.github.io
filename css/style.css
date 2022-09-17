@@ -52,7 +52,7 @@
         box-sizing: border-box;
         font-weight: 700;
         background-image: linear-gradient(rgb(93, 230, 155),rgb(30, 145, 185),rgb(241, 221, 235), rgb(234, 183, 216));
-        -webkit-background-clip: text;
+        /* -webkit-background-clip: text; */
         color: transparent;
     }
 

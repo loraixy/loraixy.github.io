@@ -16,12 +16,12 @@ window.onload = function() {
         if (scrollTop < headernav.offsetHeight) {
             headernav.style.display = "none"
         }
-
-        if (parseInt(scrollTop) == headernav.offsetHeight) {
-            headernav.style.display = "none"
+        
+        if (!headernav.offsetHeight) {
+            // headernav.style.display = "none"
             arrow.style.opacity = 1
             $(".main-title p:nth-child(1)").css({
-                "animation": "move .8s .3s ease-in-out 1 forwards",
+                "animation": "move .8s .3s ease-in-out forwards",
                 "display": 'block'
             })
             $(".main-title p:nth-child(2)").css({

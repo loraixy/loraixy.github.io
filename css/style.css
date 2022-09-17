@@ -60,7 +60,7 @@
         justify-content: space-between;
         padding: 0px 16px;
         height: 80px;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #eee;
         background-color: #fff;
     }
 
@@ -79,8 +79,8 @@
 
     .brief {
         padding: 3px 0;
-        font-size: 28px;
-        border-bottom: 1px solid #ccc;
+        font-size: 20px;
+        border-bottom: 1px solid #eee;
     }
 
     .brief .wrap {
@@ -152,4 +152,8 @@
 
     .mytext {
         margin-top: 100px;
+    }
+
+    .mytext .wrap p {
+        width: 300px;
     }

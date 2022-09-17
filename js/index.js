@@ -17,7 +17,7 @@ window.onload = function() {
             headernav.style.display = "none"
         }
 
-        if (scrollTop == headernav.offsetHeight) {
+        if (parseInt(scrollTop) == headernav.offsetHeight) {
             headernav.style.display = "none"
             arrow.style.opacity = 1
             $(".main-title p:nth-child(1)").css({

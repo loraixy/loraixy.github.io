@@ -140,9 +140,16 @@
 
     .arrow {
         margin-top: 600px;
+        opacity: 0;
+        transition: opacity ease-in-out 1.5s;
     }
 
     .arrow img {
         width: 60px;
         height: auto;
+    }
+
+
+    .mytext {
+        margin-top: 100px;
     }

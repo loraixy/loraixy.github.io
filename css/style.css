@@ -1,0 +1,26 @@
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 16px;
+        height: 80px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .list-left,
+    .list-right {
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+    }
+
+    .header-nav .title {
+        font-size: 30px;
+        color: #4b4c4c;
+        margin-right: 50px;
+    }

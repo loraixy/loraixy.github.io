@@ -4,6 +4,42 @@
         list-style: none;
     }
 
+    @keyframes move {
+        0% {
+            left: -500px;
+            transform: skewX(45deg);
+        }
+
+        80% {
+
+            left: 47%;
+            transform: skewX(0deg);
+        }
+
+        100% {
+            left: 50%;
+            transform: skewX(0deg) translateX(-50%);
+        }
+    }
+
+    @keyframes move1 {
+        0% {
+            left: -500px;
+            transform: skewX(45deg) translateY(130%);
+        }
+
+        80% {
+
+            left: 47%;
+            transform: skewX(0deg) translateY(130%);
+        }
+
+        100% {
+            left: 50%;
+            transform: skewX(0deg) translateX(-50%) translateY(130%);
+        }
+    }
+
     header {
         position: fixed;
         top: 0;
@@ -45,13 +81,14 @@
     .brief .wrap {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .hello {
         padding: 10px 0;
         box-sizing: border-box;
         font-weight: 700;
-        background-image: linear-gradient(rgb(93, 230, 155),rgb(30, 145, 185),rgb(241, 221, 235), rgb(234, 183, 216));
+        background-image: linear-gradient(rgb(93, 230, 155), rgb(30, 145, 185), rgb(241, 221, 235), rgb(234, 183, 216));
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -60,19 +97,47 @@
         margin-top: 168px;
     }
 
-    .main-title .wrap {
+    .main-title {
         text-align: center;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .main-title .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .main-title .wrap p:nth-child(1) {
+        position: absolute;
+        left: -999px;
         font-size: 48px;
+        animation: move .8s ease-in-out 1 forwards;
     }
 
     .main-title .wrap p:nth-child(2) {
+        position: absolute;
+        left: -999px;
         font-size: 16px;
+        padding: 10px 0;
         color: #999;
+        animation: move1 .8s .2s ease-in-out 1 forwards;
     }
 
     .akey {
         color: rgb(239, 222, 208);
+    }
+
+    .arrow {
+        margin-top: 400px;
+    }
+
+    .arrow img {
+        width: 60px;
+        height: auto;
     }

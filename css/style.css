@@ -4,6 +4,17 @@
         list-style: none;
     }
 
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .wrap {
+        width: 1100px;
+        margin: auto;
+    }
+
     .header-nav {
         display: flex;
         justify-content: space-between;
@@ -23,4 +34,45 @@
         font-size: 30px;
         color: #4b4c4c;
         margin-right: 50px;
+    }
+
+    .brief {
+        padding: 5px 0;
+        font-size: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .brief .wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hello {
+        padding: 10px 0;
+        box-sizing: border-box;
+        font-weight: 700;
+        background-image: linear-gradient(rgb(93, 230, 155),rgb(30, 145, 185),rgb(241, 221, 235), rgb(234, 183, 216));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    main {
+        margin-top: 168px;
+    }
+
+    .main-title .wrap {
+        text-align: center;
+    }
+
+    .main-title .wrap p:nth-child(1) {
+        font-size: 48px;
+    }
+
+    .main-title .wrap p:nth-child(2) {
+        font-size: 16px;
+        color: #999;
+    }
+
+    .akey {
+        color: rgb(239, 222, 208);
     }

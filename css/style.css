@@ -157,3 +157,11 @@
     .mytext .wrap p {
         width: 300px;
     }
+
+    .mytext .wrap {
+        display: flex;
+    }
+
+    .person-img {
+        /* transform: rotateZ(30deg); */
+    }

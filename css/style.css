@@ -160,6 +160,7 @@
 
     .mytext .wrap {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .person-img {

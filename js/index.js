@@ -73,4 +73,11 @@ window.onload = function () {
     cxt.lineTo(100, 50)
     cxt.strokeStyle = 'blue'
     cxt.stroke()
+    // b 这些会被转成字符串
+    const a = {}
+    const b = {key: 'b'}
+    const c = {key: 'c'}
+    a[b] = 123
+    a[c] = 456
+    console.log(a[b], a[c], a, b + '')
 }

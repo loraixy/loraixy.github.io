@@ -160,7 +160,13 @@
 
     .mytext .wrap {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .mytext .works-show-item h3 {
+        text-align: center;
+        padding: 20px;
     }
 
     .person-img {

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a as o}from"./index-41f7b0af.js";const _={},c={class:"dashboard"},a=o("h1",null,"This is an itemTwo page ITEMtWO",-1),n=[a];function r(d,i){return t(),s("div",c,n)}const h=e(_,[["render",r]]);export{h as default};

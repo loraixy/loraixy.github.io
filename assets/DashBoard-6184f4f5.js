@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as a,a as o}from"./index-41f7b0af.js";const _={},t={class:"dashboard"},c=o("h1",null,"This is an dashboard page 我的桌面",-1),n=[c];function r(d,h){return s(),a("div",t,n)}const l=e(_,[["render",r]]);export{l as default};

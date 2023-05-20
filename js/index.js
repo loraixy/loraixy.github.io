@@ -59,4 +59,25 @@ window.onload = function () {
         }, 4)
 
     }
+
+    let can = document.querySelector(".canvas-person")
+    let cxt = can.getContext('2d')
+    cxt.beginPath()
+    cxt.moveTo(20, 20)
+    cxt.lineTo(200, 20)
+    cxt.strokeStyle = 'red'
+    cxt.stroke()
+
+    cxt.beginPath()
+    cxt.moveTo(20, 20)
+    cxt.lineTo(100, 50)
+    cxt.strokeStyle = 'blue'
+    cxt.stroke()
+    // b 这些会被转成字符串
+    const a = {}
+    const b = {key: 'b'}
+    const c = {key: 'c'}
+    a[b] = 123
+    a[c] = 456
+    console.log(a[b], a[c], a, b + '')
 }

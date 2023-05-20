@@ -156,6 +156,7 @@
 
     .mytext .wrap p {
         width: 400px;
+
     }
 
     .mytext .wrap {
@@ -167,7 +168,7 @@
 
     .mytext .works-show-item {
         /* display: flex;
-        justify-content: c; */
+
     }
 
     .mytext .works-show-item h3 {
@@ -178,5 +179,10 @@
     .introduction p {
         width: 100%;
         text-align: center;
+
+        padding: 20px;
+    }
+
+    .person-img {
         /* transform: rotateZ(30deg); */
     }
